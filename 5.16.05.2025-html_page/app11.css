@@ -1,0 +1,38 @@
+table {
+    border: 5px;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    border-style: solid
+}
+ td { 
+    border: 2px;
+    border-style: solid;
+    border-color: silver;
+}
+ 
+
+[for=red] {
+    color: red;
+}
+#red {
+      accent-color: red;
+}
+[for=green] {
+    color: green;
+}
+#green {
+      accent-color: green;
+}
+[for=blue] {
+    color: blue;
+}
+#blue {
+      accent-color: blue;
+}
+[for=orange] {
+    color: orange;
+}
+#orange {
+      accent-color: orange;
+}
