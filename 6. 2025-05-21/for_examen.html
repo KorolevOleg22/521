@@ -1,0 +1,73 @@
+<!--Сегодня репетируем экзамен. До 20:50 пишем страничку.
+
+На страничке должна быть таблица. Сверху в таблице узкая картинка в ячейке
+На второй строке - заголовок "Лыжные соревнования, 23 мая 2025"
+Выбор из 3 дистанций: 5 км, 15 км, 40 км. Выбор - как хотите - кружочками или выпадающим списком. Если кружочками, то строки рядом с ними должны переключать кружочек
+Фамилия и имя участника. Внутри полей ввода должно быть сереньким написано "Фамилия", "Имя"
+
+Возвраст - в специальном поле ввода. Можно заменить на дату рождения
+Указать предыдущий рекорд на дистанции в виде: ЧЧ:ММ
+галочка: Я согласен с правилами. Галочка должна быть активирована не только квадратиком, но и строкой рядом
+ ссылка на https://xn----8sbgseichghzb.xn--p1ai/ внизу страницы-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apper2.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3">   
+                <img
+    src="img2/img1.png"
+    alt="моя фотография"></td>      
+        </tr>
+         <tr>
+            <td colspan="3">
+                <h1>"Лыжные соревнования, 23 мая 2025"</h1>
+                </td>
+        </tr>
+         <tr>
+            <td><p>Выбор дистанции:</p>  
+            </td>
+            <td> <select> <!-- select - это выбор выпадающего списка. -->
+        <option> x km </option>
+        <option> 5 km </option>
+        <option> 15 km </option>
+        <option> 30 km </option>
+    </select></td>
+            <td><input type="checkbox"></td> <!-- это галочка-->
+        </tr>
+        <tr>
+            <td><p>Укажите ваши ФИО:</p></td>
+            <td><input placeholder="ФИО"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Укажите ваш возраст и дату рождения:</td>
+            <td><input type="number" placeholder="xx"><input type="date"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Указать предыдущий рекорд на дистанции</td>
+            <td><input type="number" placeholder="ЧЧ:ММ"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <label for="not_robot">Я согласен с правилами:</label> 
+            <input type="checkbox" id="not_robot"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <a href="https://xn----8sbgseichghzb.xn--p1ai/">
+            html_css
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

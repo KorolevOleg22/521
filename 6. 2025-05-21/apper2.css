@@ -1,0 +1,19 @@
+table {
+    border: 5px;
+    border-color: black;
+   /* width:2000px;
+    height: 800px;*/
+    border-style: double;
+}
+td {
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+}
+td[rowspan="2"] {
+    background-color: blueviolet;
+}
+
+img {
+    width: 800px;
+}
